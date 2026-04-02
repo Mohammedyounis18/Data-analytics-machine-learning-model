@@ -1,4 +1,4 @@
-﻿<a name="_hlk215410869"></a>Analytics assignment
+﻿<a name="_hlk215410869"></a>
 
 
 **1.Data collection:**
