@@ -60,7 +60,7 @@ Correlation with Target: =CORREL(E2:E144,H2:H144)
 
 Below is the result of the data exploration stage, formulas are provided above:
 
-![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.001.png)
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.001.png)
 
 
 
@@ -71,13 +71,13 @@ Below is the result of the data exploration stage, formulas are provided above:
 
 ` `**Cetgorical feature 1**: **Level\_Group  feature frequency distribution** 
 
-![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.002.png)
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.002.png)
 
 
 
 **Level group feature vs Target feature (relationship between them)**
 
-![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.003.png)
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.003.png)
 
 
 
@@ -86,12 +86,12 @@ Below is the result of the data exploration stage, formulas are provided above:
 
 Looked at frequency distribution between each of the different Category types
 
-![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.004.png)
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.004.png)
 
 
 **Category\_type feature vs Target feature (relationship between them)**
 
-![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.005.png)
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.005.png)
 
 This shows you how each category relates to the target (0 vs 1).
 
@@ -104,7 +104,7 @@ The reason I did this is because every column had a couple of cells with blank v
 
 I evaluated column-wise deletion and mean imputation, but the random distribution of missing values across features made my method (deleting rows with blank columns) the most methodologically sound approach.
 
-![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.006.png)
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.006.png)
 
 **Feature transformation: good\_sleeper\_category**
 
@@ -112,7 +112,7 @@ Formula: =IF(B2>=6, "Good Sleeper", "Poor Sleeper")
 
 Why: 6+ hours of sleep is the general recommendation for adults. This feature categorizes people based on whether they meet this healthy sleep threshold, which might relate to their work performance. 
 
-![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.007.png)
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.007.png)
 
 
 
@@ -124,7 +124,7 @@ I created the high\_efficiency\_flag because I noticed that employees who achiev
 
 This is shown by this pivot table which shows that people who have a high efficiency have a higher probability of being labeled as a high performer (target feature).
 
-` `![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.008.png)
+` `![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.008.png)
 
 The formula  I used: =IF(AND(A2>50,E2<30),1,0)
 
@@ -132,7 +132,7 @@ I set the formula to find efficient workers because I noticed a clear pattern: e
 
 ![A screenshot of a computer
 
-AI-generated content may be incorrect.]
+pic]
 
 
 
@@ -146,14 +146,14 @@ Formula: =IF(C2>0,1,0)
 
 ![A screenshot of a computer
 
-AI-generated content may be incorrect.]
+pic]
 
 **Why:** Because I can see that having any physical activity (even small amounts) strongly correlates with being a high performer in your dataset.
 
 This is seen below (pivot table) where you can see that people who do even a little bit of activity are way more likey to be labeled as a high performer (target feature) . 33 people with activity are labebled as high performers while people (5) with 0 activity are labeled as a high performers:
 
 
-![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.010.png)
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.010.png)
 
 
 **5. Visualization:**
@@ -170,22 +170,22 @@ Only 5 out of 17 employees with no activity were high performers (29%)
 
 The chart reveals that the vast majority of high performers (33 out of 38) come from the active group, indicating activity may be a contributing factor to high performance.
 
-![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.011.png)
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.011.png)
 
 
 
 I then visualized the frequency of each category type to understand their distribution
 
-Type A is the most frequent one and represents the majority of employees.![A graph on a white sheet&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.012.png)
+Type A is the most frequent one and represents the majority of employees.![A graph on a white sheet&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.012.png)
 
 I also visualized the frequency of each Level group for the same reason (understanding distribution) .
 
-![A screenshot of a computer](Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.013.png)
+![A screenshot of a computer](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.013.png)
 
 
 6\. Modelling:
 
-Orange:![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.014.png)
+Orange:![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.014.png)
 
 **Model Evaluation: Decision Tree**
 
@@ -213,7 +213,7 @@ The 70/30 split helped a bit compared to my first attempt (I tried 60/40 split f
 - **Precision** = 4 / (4 + 8) = 4/12 = **33%**
   - When it predicts a high performer it's only right 33% of the time
 
-![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.015.png)![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.]pic_Analytics/(Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.016.png)
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.015.png)![A screenshot of a computer&#x0A;&#x0A;pic]pic_Analytics/(Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.016.png)
 
 
 
@@ -245,7 +245,7 @@ Performance Calculations:
 - Precision = 4 / (4 + 2) = 4/6 = 67%
   - When it predicts a high performer it's right 67% of the time
 
-![A screenshot of a graph&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.017.png)![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.018.png)
+![A screenshot of a graph&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.017.png)![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.018.png)
 
 
 **Which Model Generalizes Better**
@@ -278,4 +278,4 @@ Overall, this project was a rewarding challenge. It deepened my understanding of
 
 [A screenshot of a computer
 
-AI-generated content may be incorrect.]: Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.009.png
+pic]: Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.009.png
