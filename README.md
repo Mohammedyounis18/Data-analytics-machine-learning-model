@@ -60,7 +60,7 @@ Correlation with Target: =CORREL(E2:E144,H2:H144)
 
 Below is the result of the data exploration stage, formulas are provided above:
 
-![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.001.png)
+![A screenshot of a computer&#x0A;&#x0A;AI-generated content may be incorrect.](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.001.png)
 
 
 
