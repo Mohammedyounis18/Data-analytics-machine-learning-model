@@ -130,9 +130,7 @@ The formula  I used: =IF(AND(A2>50,E2<30),1,0)
 
 I set the formula to find efficient workers because I noticed a clear pattern: employees who deliver high performance (over 50) quickly (under 30 time) are consistently the top performers in the data.
 
-![A screenshot of a computer
-
-pic]
+` `![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.009.png)
 
 
 
@@ -144,9 +142,7 @@ pic]
 
 Formula: =IF(C2>0,1,0)
 
-![A screenshot of a computer
-
-pic]
+![A screenshot of a computer pic]
 
 **Why:** Because I can see that having any physical activity (even small amounts) strongly correlates with being a high performer in your dataset.
 
@@ -213,7 +209,9 @@ The 70/30 split helped a bit compared to my first attempt (I tried 60/40 split f
 - **Precision** = 4 / (4 + 8) = 4/12 = **33%**
   - When it predicts a high performer it's only right 33% of the time
 
-![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.015.png)![A screenshot of a computer&#x0A;&#x0A;pic]pic_Analytics/(Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.016.png)
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.015.png)![A screenshot of a computer&#x0A;&#x0A;pic]
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.016.png)
+
 
 
 
