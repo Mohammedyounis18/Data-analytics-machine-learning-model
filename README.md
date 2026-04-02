@@ -262,7 +262,7 @@ Therefore, for the purpose of reliably identifying high performers, the Logistic
 **Reflection:**
 
 
-This assignment provided a really valuable, hands on journey through the entire process of a data analysis project. 
+This project provided a really valuable, hands on journey through the entire process of a data analysis project. 
 
 ` `I learned the importance of the foundational stages, like data cleaning and feature engineering. Initially, handling missing values by deleting rows was a straightforward decision to ensure data integrity for the model. While I do believe this approach was effective for this project, I would try using other techniques like imputations if I were to do this again, out of curiosity of how the model would improve/worsen if I did that.
 
@@ -270,7 +270,7 @@ The most engaging part was feature engineering. By closely examining the data an
 
 Using Orange to build and evaluate the models was insightful. It made abstract concepts like precision and recall very concrete. For instance, seeing that the Logistic Regression model had high overall accuracy but struggled with recall was a crucial lesson. It highlighted that a model's success depends heavily on the project's specific goal, in this case, correctly identifying high performers was our priority.
 
-If I were to do this assignment again I would change some stuff but overall I am happy with with what I did, as this assignment is about the process and learning and not about the model being 100% prefect.
+If I were to do this  again I would change some stuff but overall I am happy with with what I did, as this project is about the process and learning and not about the model being 100% prefect.
 
 Overall, this project was a rewarding challenge. It deepened my understanding of the analytics pipeline and taught me the importance of clear reasoning and interpretation at every stage, not just the final result.
 
