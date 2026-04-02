@@ -209,7 +209,7 @@ The 70/30 split helped a bit compared to my first attempt (I tried 60/40 split f
 - **Precision** = 4 / (4 + 8) = 4/12 = **33%**
   - When it predicts a high performer it's only right 33% of the time
 
-![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.015.png)![A screenshot of a computer&#x0A;&#x0A;pic]
+![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.015.png)
 ![A screenshot of a computer&#x0A;&#x0A;pic](pic_Analytics/Aspose.Words.a7054522-0eed-4a1a-b765-8fd0d5c94d1b.016.png)
 
 
